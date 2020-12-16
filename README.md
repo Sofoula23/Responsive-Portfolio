@@ -31,7 +31,7 @@ TEST TETSDRFLDKFGLDKFKDLFKDLFK
     * test
 ```
 
-![Titulo](./images/about-me.png)
+![Titulo](./images/portfolio.png)
 
 #titulo
 ```
@@ -42,4 +42,4 @@ TEST TETSDRFLDKFGLDKFKDLFKDLFK
     * test
 ```
 
-![Titulo](./images/about-me.png)
+![Titulo](./images/contact.png)
