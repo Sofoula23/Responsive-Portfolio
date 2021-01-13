@@ -1,9 +1,6 @@
 # Responsive-Portfolio
 Responsive design
-# TEST
-## TEST
-### TEST
-#### TEST
+
 
 ```
 TEST TETSDRFLDKFGLDKFKDLFKDLFK
@@ -17,7 +14,7 @@ TEST TETSDRFLDKFGLDKFKDLFKDLFK
     * test
     * test
 ```
-#titulo
+# About ME Page
 
 ![Titulo](./images/about-me.png)
 
@@ -30,10 +27,10 @@ TEST TETSDRFLDKFGLDKFKDLFKDLFK
     * test
     * test
 ```
-
+# Portfolio Page
 ![Titulo](./images/portfolio.png)
 
-#titulo
+# Contact Page
 ```
     -lista
     -liste 
