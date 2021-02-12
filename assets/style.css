@@ -10,106 +10,73 @@
 #profile {
   border-radius: 50% !important;
 }
-
-.navbar-brand {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+h5 {
+  font-family: 'Ribeye Marrow', cursive !important;
   font-size: x-large;
 }
-#navbarSupportedContent {
-  font-family: 'Gill Sans', Calibri; 
+h4 {
+  color: black;
 }
 
+.navbar-brand {
+  font-family: 'Ribeye Marrow', cursive !important;
+  font-size: x-large;
+}
+
+#navbarSupportedContent {
+  font-family: 'Ribeye Marrow', cursive !important; 
+}
 
 .col text-justify {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+  font-family: 'Ribeye Marrow', cursive !important;
 }
-/* .hovereffect {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
+h1 {
+  font-family: 'Ribeye Marrow', cursive !important; 
 }
-
-.hovereffect .overlay {
-  position: absolute;
-  overflow: hidden;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  width: 55%;
-  height: 81%;
-  left: 22%;
-  top: 10%;
-  border-radius: 80%;
-  border: 2px solid #FFF;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(50%,50%,0);
-  transform: translate3d(50%,50%,0);
+#heart {
+  color: rgb(255, 204, 213) !important;
 }
-
-.hovereffect:hover .overlay {
-  background-color: rgba(0,0,0,0.3);
+#contact {
+  font-family: 'Ribeye Marrow', cursive !important; 
 }
-
-.hovereffect img {
-  display: block;
-  position: relative;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s;
+#email {
+  font-family: 'Ribeye Marrow', cursive !important; 
+  position: center !important; 
 }
-
-.hovereffect:hover img {
-  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="1.4" /><feFuncG type="linear" slope="1.4" /><feFuncB type="linear" slope="1.4" /></feComponentTransfer></filter></svg>#filter');
-  filter: brightness(1.4);
-  -webkit-filter: brightness(1.4);
+#submit {
+  background-color:  rgb(167, 237, 255) ;
+  font-family: 'Ribeye Marrow', cursive !important;
+  margin-left: 3px;
 }
-
-.hovereffect h2 {
-  text-transform: uppercase;
-  text-align: center;
-  position: relative;
-  font-size: 17px;
-  padding: 10px;
-  background-color: transparent;
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-150%,-400%,0);
-  transform: translate3d(-150%,-400%,0);
+#resume {
+  background-color:  rgb(167, 237, 255) ;
+  font-family: 'Ribeye Marrow', cursive !important;
+  margin-bottom: 5px;
 }
-
-.hovereffect a, .hovereffect p {
-  color: #FFF;
-  padding: 1em 0;
-  opacity: 0;
-  filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-150%,-400%,0);
-  transform: translate3d(-150%,-400%,0);
+#linkedin {
+  background-color: rgb(255, 204, 213) !important;
+  font-family: 'Ribeye Marrow', cursive !important;
+  color: rgb(255, 204, 213) !important;
+  margin-bottom: 5px;
 }
-
-.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2, .hovereffect:hover .overlay {
-  opacity: 1;
-  filter: alpha(opacity=100);
-  -webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);
+#github {
+  background-color:  rgb(167, 237, 255) ;
+  font-family: 'Ribeye Marrow', cursive !important;
+  color: rgb(255, 204, 213) !important;
+  margin-bottom: 5px;
+}
+/* .card-text {
+  font-family: 'Ribeye Marrow', cursive !important; 
 } */
-/* FOOTER DESIGN*/
+
 footer {
-    position: fixed;
+    position: relative;
     left: 0;
-    bottom: 0;
+    bottom: -2;
     display: block;
     width: 100%;
     height: 2.5rem;    
-    background-color: rgb(255, 204, 213);
+    background-color:transparent;
     text-align: center;
   }
   .container {
@@ -119,8 +86,12 @@ footer {
     size: small;
     
   }
+  form {
+    width: 280px;
+    font-family: 'Ribeye Marrow', cursive !important;
+  } 
   
-  /* Social medica buttons */
+  /* Social media buttons */
   .fa {
     padding: 20px 10px;
     padding-bottom: 50px;
@@ -133,5 +104,69 @@ footer {
   .fa-icon {
     background: rgb(167, 237, 255);
     color: white;
+    padding-bottom: 5px;
   }
 
+/* // Glowing buttons // */
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgb(167, 237, 255);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-family: 'Ribeye Marrow', cursive !important;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: rgb(167, 237, 255)
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: "";
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}

@@ -1,42 +1,19 @@
 # Responsive-Portfolio
-Responsive design
+Updated portfolio with added features and documents. 
 
 
-```
-TEST TETSDRFLDKFGLDKFKDLFKDLFK
-```
-
-
-```
-    -lista
-    -liste 
-
-    * test
-    * test
-```
 # About ME Page
 
-![Titulo](./images/about-me.png)
+![](.)
 
 
-
-```
-    -lista
-    -liste 
-
-    * test
-    * test
 ```
 # Portfolio Page
-![Titulo](./images/portfolio.png)
+
+![portfolio](./images/portfolio-view.png)
 
 # Contact Page
-```
-    -lista
-    -liste 
 
-    * test
-    * test
 ```
 
-![Titulo](./images/contact.png)
+![contact](./images/contact.png)
