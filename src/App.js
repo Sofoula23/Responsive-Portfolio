@@ -14,7 +14,7 @@ function App() {
         <div>
           <Header />
           <Switch>
-            <Route path="/about-me">
+            <Route path="/">
               <AboutMePage />
             </Route>
             <Route path="/projects">

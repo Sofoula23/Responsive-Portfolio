@@ -25,7 +25,7 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="nav navbar-nav navbar-right">
             <li className="nav-item">
-              <Link className="nav-link" to="/about-me">About Me</Link>
+              <Link className="nav-link" to="/">About Me</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/projects">Portfolio</Link>
