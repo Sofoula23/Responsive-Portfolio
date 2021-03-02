@@ -1,0 +1,6 @@
+.projects-container{
+    color: gray;
+}
+.projects-container .row {
+    margin-bottom: 24px;
+}

@@ -4,17 +4,15 @@ Updated portfolio with added features and documents. In this update I have inclu
 
 # About ME Page
 
-![Profile](./images/profile.png)
-
-
+![Profile](./docs/images/profile.png)
 
 # Portfolio Page
 
-![portfolio](./images/portfolio.png)
+![portfolio](./docs/images/portfolio.png)
 
 # Contact Page
 
-![contact](./images/contact.png)
+![contact](./docs/images/contact.png)
 
 # Visit Github
 
